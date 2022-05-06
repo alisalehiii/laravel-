@@ -1,0 +1,37 @@
+body{
+    direction: rtl;
+    font-family: Arial, serif !important;
+}
+.home-text{
+    padding-right: 200px;
+}
+.home-img{
+    position: relative;
+  
+}
+
+.home-img img{
+  
+    background-repeat : no-repeat;
+    background-position: left bottom;
+    clip-path: polygon(0 0, 77% 0, 100% 100%, 0% 100%);
+    background-color: brown;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    
+}
+home-img::befor{
+    content: "";
+    position: absolute;
+    clip-path: polygon(0 0, 77% 0, 100% 100%, 0% 100%);
+    background-color: brown;
+    
+}
+.blog-item img{
+height: 250px;
+}
+.blogs-detail{
+height: auto;
+}
